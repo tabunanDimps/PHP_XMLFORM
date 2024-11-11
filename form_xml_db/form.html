@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Book Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Loan Form</h2>
+      <form action="save_to_xml.php" method="post">
+        <label for="loan_id">Loan Id:</label><br />
+        <input
+          type="text"
+          id="loan_id"
+          name="loan"
+          placeholder="Loan ID"
+        /><br />
+
+        <!-- <label for="Loan Id:">Loan Id</label><br />
+        <input type="int" id="loan" name="loan" placeholder="Loan Id" /><br /> -->
+
+        <label for="loan amount">Loan Amount</label><br />
+        <input type="int" id="loan amount" name="loan amount" placeholder="Loan amount" required/><br />
+
+        <label for="interest">Interest</label><br />
+        <input type="int" id="interest" name="interest" placeholder="Interest" /><br />
+
+        <label for="service fee">Service Fee</label><br />
+        <input type="int" id="service fee" name="service fee" placeholder="Service Fee" /><br />
+
+        <button type="submit">Calculate</button>
+      </form>
+    </div>
+  </body>
+</html>

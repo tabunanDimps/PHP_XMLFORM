@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(23, 98, 128, 0.733);
+  color:black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: black; /* Yellow color */
+  text-align: center;
+  
+}
+
+input[type="text"],
+input[type="int"],
+button[type="submit"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: black; /* Yellow color */
+  color: white; /* Dark blue color */
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: rgba(29, 26, 26, 0.945); /* Lighter yellow color on hover */
+}
